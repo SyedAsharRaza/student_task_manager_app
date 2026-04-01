@@ -12,27 +12,21 @@ A Flutter-based task management application for students featuring REST API auth
 
 ## 🛠️ Tech Stack
 
-- **Framework:** Flutter & Dart
-- **Database:** Firebase Firestore
-- **API Integration:** DummyJSON REST API
-- **State Management:** Provider
-- **Platform Support:** Android, iOS, Web
+| Category | Technology |
+|----------|------------|
+| Framework | Flutter & Dart |
+| Database | Firebase Firestore |
+| API | DummyJSON REST API |
+| State Management | Provider |
+| Platforms | Android, iOS, Web |
 
 ## 📂 Project Structure
-lib/
-├── main.dart
-├── providers/
-│ ├── auth_provider.dart
-│ └── task_provider.dart
-└── screens/
-├── login_screen.dart
-├── home_screen.dart
-├── add_task_screen.dart
-├── edit_task_screen.dart
-└── view_tasks_screen.dart
 
-text
-
+| Folder | Contents |
+|--------|----------|
+| `lib/` | Main application code |
+| `lib/providers/` | Auth and Task providers |
+| `lib/screens/` | Login, Home, Add/Edit/View Task screens |
 
 ## 🚀 Getting Started
 
@@ -43,8 +37,7 @@ text
 
 ## 👨‍💻 Author
 
-**Syed Ashar Raza**  
-GitHub: [@SyedAsharRaza](https://github.com/SyedAsharRaza)
+**Syed Ashar Raza** — [@SyedAsharRaza](https://github.com/SyedAsharRaza)
 
 ## 📄 License
 
