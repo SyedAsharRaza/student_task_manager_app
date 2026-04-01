@@ -1,16 +1,55 @@
-# student_task_manager_app
+# 📚 Student Task Manager
 
-A new Flutter project.
+A Flutter-based task management application for students featuring REST API authentication, Firebase Firestore integration, and Provider state management.
 
-## Getting Started
+## ✨ Features
 
-This project is a starting point for a Flutter application.
+- 🔐 User authentication via DummyJSON REST API
+- ✅ Create, view, edit, and delete tasks
+- 🔄 Real-time data synchronization with Firebase Firestore
+- 📱 Clean and responsive UI
+- 💾 Cloud-based persistent storage
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Framework:** Flutter & Dart
+- **Database:** Firebase Firestore
+- **API Integration:** DummyJSON REST API
+- **State Management:** Provider
+- **Platform Support:** Android, iOS, Web
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📂 Project Structure
+lib/
+├── main.dart
+├── providers/
+│ ├── auth_provider.dart
+│ └── task_provider.dart
+└── screens/
+├── login_screen.dart
+├── home_screen.dart
+├── add_task_screen.dart
+├── edit_task_screen.dart
+└── view_tasks_screen.dart
+
+text
+
+
+## 🚀 Getting Started
+
+1. Clone the repository
+2. Run `flutter pub get`
+3. Configure Firebase credentials
+4. Run `flutter run`
+
+## 👨‍💻 Author
+
+**Syed Ashar Raza**  
+GitHub: [@SyedAsharRaza](https://github.com/SyedAsharRaza)
+
+## 📄 License
+
+MIT License
+
+---
+
+**Built with Flutter 💙**
